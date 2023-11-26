@@ -7,8 +7,15 @@
 /* Основные стили */
 * {
     font-family: 'Golos Text', sans-serif;
-    font-size: 1.11vw;
     scroll-behavior: smooth;
+    font-size: 1rem;
+}
+
+html {
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 body {
@@ -18,11 +25,18 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 100vw;
     margin: 0 auto;
     padding: 0 16px;
 }
 
+/* Подключение стилей кнопок */
+@import 'blocks/buttons/buttons';
+
+/* Подключение стилей блоков */
+@import 'blocks/header/header';
+
+/* Подключение шрифта Antonym*/
 @font-face {
     font-family: 'Antonym';
     src: url('fonts/Antonym.eot');

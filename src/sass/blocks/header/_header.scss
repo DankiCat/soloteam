@@ -1,0 +1,63 @@
+header {
+    padding: 0.833vw 16px 0.833vw 16px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background-color: $yellow;
+    .logo_box {
+        display: flex;
+        flex-direction: column;
+        width: 7.639vw;
+        img {
+            width: 100%;
+        }
+    }
+    .wrapper {
+        display: flex;
+        padding-left: 2.778vw;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1 0 0;
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2.222vw;
+            &__link {
+                font-size: 0.9375rem;
+                position: relative;
+                transition: all 0.338s;
+                &:hover {
+                    &::before {
+                        width: 100%;
+                        left: 0;
+                    }
+                }
+                &::before {
+                    transition: all 0.169s;
+                    position: absolute;
+                    content: "";
+                    bottom: -0.139vw;
+                    left: 50%;
+                    width: 0%;
+                    height: 0.069vw;
+                    background-color: $black;
+                }
+                &_faded {
+                    color: rgba($black, .32);
+                    pointer-events: none;
+                }
+            }
+        }
+        .login_container {
+            display: flex;
+            height: 3.056vw;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 0.694vw;
+        }
+    }
+}

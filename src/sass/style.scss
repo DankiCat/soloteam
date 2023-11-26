@@ -27,7 +27,6 @@ body {
 .container {
     width: 100vw;
     margin: 0 auto;
-    padding: 0 16px;
 }
 
 /* Подключение стилей кнопок */
@@ -35,6 +34,7 @@ body {
 
 /* Подключение стилей блоков */
 @import 'blocks/header/header';
+@import 'blocks/first-screen/first-screen';
 
 /* Подключение шрифта Antonym*/
 @font-face {

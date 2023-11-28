@@ -14,20 +14,18 @@
         align-items: flex-start;
         gap: 4.722vw;
         flex: 1 0 0;
+        h1 {
+            font-weight: 500;
+            i {
+                font-weight: 400;
+            }
+        }
         .article {
             display: flex;
-            width: 38.542vw;
+            width: 39.542vw;
             flex-direction: column;
             align-items: flex-start;
             gap: 2.222vw;
-            h1 {
-                font-family: 'Antonym';
-                font-size: 4rem;
-                i {
-                    font-family: 'Antonym';
-                    font-size: 4rem;
-                }
-            }
             p {
                 font-size: 1.25rem;
                 line-height: 140%;
@@ -58,8 +56,37 @@
     }
     .image-container {
         width: 46.667vw;
+        height: 46.667vw;
+        padding: 3.264vw 10.542vw 4.861vw 8.542vw;
+        background-image: url('../images/first-screen/image_packground.png');
+        background-size: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url('/images/first-screen/image_background.png');
+        position: relative;
+        .video-box {
+            width: 28.125vw;
+            height: 38.542vw;
+            border-radius: 1.319vw;
+            overflow: hidden;
+            video {
+                width: 100%;
+            }
+        }
         img {
-            width: 100%;
+            position: absolute;
+            &.image-table {
+                width: 19.514vw;
+                height: 13.056vw;
+                left: 0;
+                top: 10.972vw;
+            }
+            &.image-profile {
+                width: 15.556vw;
+                height: 9.444vw;
+                right: 1.667vw;
+                bottom: 10.972vw;
+            }
         }
     }   
 }

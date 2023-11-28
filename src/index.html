@@ -22,7 +22,7 @@
             </div>
             <div class="wrapper">
                 <nav class="menu">
-                    <a href="#" class="menu__link">О нас</a>
+                    <a href="#about" class="menu__link">О нас</a>
                     <a href="#" class="menu__link">Как работает</a>
                     <a href="#" class="menu__link">Преимущества</a>
                     <a href="#" class="menu__link menu__link_faded">Блог</a>
@@ -39,22 +39,62 @@
             <div class="container">
                 <div class="article-container">
                     <div class="article">
-                        <h1>Платформа для работы с вашей <i>базой фрилансеров</i></h1>
+                        <h1 class="title title__h1">Платформа для работы с вашей <i>базой фрилансеров</i></h1>
                         <p>Создавайте и управляйте вашей базой фрилансеров, вовремя находите людей на проект и не тратьте время на переговоры.</p>
                         <button type="button" class="btn">Начать бесплатно <div class="arrow-container"><img src="icons/arrow-container.svg" alt=""></div></button>
                     </div>
                     <div class="process">
                         <p class="process__title">Улучшает процессы:</p>
                         <div class="process__list">
-                            <img class="process__item" src="images/first screen/processes/image_agency.svg" alt="agency">
-                            <img class="process__item" src="images/first screen/processes/image_producer.svg" alt="producer">
-                            <img class="process__item" src="images/first screen/processes/image_project-manager.svg" alt="project manager">
-                            <img class="process__item" src="images/first screen/processes/image_freelancer.svg" alt="freelancer">
+                            <img class="process__item" src="images/first-screen/processes/image_agency.png" alt="agency">
+                            <img class="process__item" src="images/first-screen/processes/image_producer.png" alt="producer">
+                            <img class="process__item" src="images/first-screen/processes/image_project-manager.png" alt="project manager">
+                            <img class="process__item" src="images/first-screen/processes/image_freelancer.png" alt="freelancer">
                         </div>
                     </div>
                 </div>
                 <div class="image-container">
-                    <img src="images/first screen/image-hero.png" alt="image">
+                    <div class="video-box">
+                        <video preload="true" autoplay loop muted playsinline>
+                            <source src="videos/soloteamhero.mp4">
+                        </video> 
+                    </div>
+                    <img class="image-table" src="images/first-screen/image_table.png" alt="">
+                    <img class="image-profile" src="images/first-screen/image_profile.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="anchor" id="about"></div>
+        <section class="db">
+            <div class="container">
+                <div class="db__content-wrapper">
+                    <div class="db__article-container">
+                        <div class="db__title-container">
+                            <h1 class="db__title title title__h2">
+                                Создайте базу фрилансеров, <i>которая обновляется сама</i>
+                            </h1>
+                        </div>
+                        <div class="db__quote-container">
+                            <div class="db__quote-wrapper">
+                                <img src="icons/quotes.svg" alt="quotes" class="db__quote-icon">
+                                <div class="db__background-rectangle"></div>
+                                <div class="db__line"></div>
+                                <img src="icons/drawing_arrow.svg" alt="arrow" class="db__arrow">
+                                <p class="db__quote-text">
+                                    Обычно, база фрилансеров это список в Notion или Exel, с кучей неактуальных данных. Приходится писать сразу всем.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="db__text-containter">
+                            <div class="db__text">
+                                В Soloteam — все данные обновляются автоматически: ставка в час, грейд и занятость фрилансера. Вы заранее понимаете кому предложить задачу.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="db__image-container">
+                        <img src="images/db screen/image_soloteam-table-talent-base.png" alt="soloteam table talent base" class="db__image">
+                    </div>
                 </div>
             </div>
         </section>

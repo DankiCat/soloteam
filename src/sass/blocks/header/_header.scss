@@ -12,13 +12,14 @@ header {
     transition: all 0.169s;
     &.border {
         transition: all 0.169s;
-        // border-bottom: 0.069vw solid $black;
-        box-shadow: 0 0.069vw 0.278vw rgba($black, 0.5);
+        border-bottom: 0.069vw solid $black;
+        // box-shadow: 0 0.069vw 0.278vw rgba($black, 0.5);
     }
     .logo_box {
         display: flex;
         flex-direction: column;
         width: 11.458vw;
+        height: 1.6667vw;
         img {
             width: 100%;
         }
@@ -49,6 +50,7 @@ header {
                     position: absolute;
                     content: "";
                     bottom: -0.139vw;
+                    left: 50%;
                     width: 0%;
                     height: 0.069vw;
                     background-color: $black;
@@ -66,7 +68,7 @@ header {
                             letter-spacing: -0.017vw;
                             color:rgba($black, .5);
                             top: -0.85vw;
-                            right: -2.335vw;
+                            left: calc(100% - 0.764vw);
                             padding: 0px 0.278vw 0.139vw 0.278vw;
                             width: 2.986vw;
                             height: 1.111vw;

@@ -1,0 +1,92 @@
+.db {
+    background-color: $biege_2;
+    &__content-wrapper {
+        display: flex;
+        width: 100%;
+        padding: 4.444vw 2.222vw;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__article-container {
+        display: flex;
+        width: 46.667vw;
+        padding: 2.222vw 5vw 2.222vw 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.556vw;
+        flex-shrink: 0;
+    }
+    &__title {
+        color: $black2;
+    }
+    &__quote-container {
+        display: flex;
+        padding-top: 0.972vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.486vw;
+    }
+    &__quote-wrapper {
+        width: 36.944vw;
+        height: 10.417vw;
+        position: relative;
+        padding: 1.806vw 2.292vw 2.778vw 1.25vw;
+    }
+    &__quote-icon, &__background-rectangle, &__line, &__arrow, &__quote-text {
+        position: absolute;
+    }
+    &__quote-icon {
+        width: 2.222vw;
+        height: 2.222vw;
+        top: 0.069vw;
+        left: -0.972vw;
+        z-index: 100;
+    }
+    &__background-rectangle {
+        transform: rotate(-2deg);
+        flex-shrink: 0;
+        width: 36.732vw;
+        height: 7.639vw;
+        border-radius: 1.111vw;
+        background-color: $biege_1;
+        position: absolute;
+        left: -1.111vw;
+        top: 0.5vw;
+    }
+    &__line {
+        width: 0.278vw;
+        height: 4.583vw;
+        border-radius: 0.139vw;
+        background-color: $black;
+        top: 2.708vw;
+        left: 0;
+    }
+    &__arrow {
+        width: 9.379vw;
+        height: 4.046vw;
+        bottom: 0.119vw;
+        right: 4.353vw;
+        flex-shrink: 0;
+    }
+    &__quote-text {
+        width: 33.403vw;
+        font-size: 1.25rem;
+        line-height: 140%;
+        position: absolute;
+        top: 1.806vw;
+        left: 1.25vw;
+    }
+    &__text {
+        width: 34.167vw;
+        font-size: 1.125rem;
+        line-height: 140%;
+    }
+    &__image-container {
+        width: 46.667vw;
+        height: 40.278vw;
+        flex-shrink: 0;
+    }
+    &__image {
+        width: 100%;
+    }
+}

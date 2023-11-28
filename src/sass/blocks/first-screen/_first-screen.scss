@@ -5,7 +5,7 @@
         padding: 0 2.222vw;
         display: flex;
         align-items: flex-start;
-        gap: 2.222vw;
+        justify-content: space-between;
     }
     .article-container {
         display: flex;
@@ -55,10 +55,9 @@
         }
     }
     .image-container {
-        width: 46.667vw;
+        // width: 46.667vw;
         height: 46.667vw;
         padding: 3.264vw 10.542vw 4.861vw 8.542vw;
-        background-image: url('../images/first-screen/image_packground.png');
         background-size: no-repeat;
         background-position: center;
         background-size: cover;

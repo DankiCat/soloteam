@@ -3,17 +3,13 @@
     i {
         font-family: Antonym;
     }
-    &__h1, &__h1 i{
+    &_h1, &_h1 i {
         letter-spacing: -0.089vw;
         font-size:  4rem;
         line-height: 110%;
     }
-    &__h2{
+    &_h2, &_h2 i {
         font-size: 3.125rem;
         letter-spacing: -0.069vw;
-        i {
-            font-size: 3.125rem;
-            letter-spacing: -0.069vw;
-        }
     }
 }

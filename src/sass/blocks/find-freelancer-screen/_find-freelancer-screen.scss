@@ -1,0 +1,70 @@
+.find-freelancer {
+    background-color: $biege_2;
+    padding: 3.333vw 2.222vw;
+    &__content-wrapper {
+        display: flex;     
+        align-items: flex-start;
+        gap: 2.083vw;
+        border-radius: 2.778vw;
+        background-color: $yellow;
+    }
+    &__left-container {
+        display: flex;
+        padding-top: 5vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.597vw;
+    }
+    &__title-container {
+        width: 46.667vw;
+        padding-left: 3.333vw;
+    }
+    &__image-container {
+        width: 46.667vw;
+        height: 27.778vw;
+    }
+    &__image {
+        width: 100%;
+    }
+    &__instruction-list-container {
+        display: flex;
+        padding: 5vw 8.125vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.111vw;
+    }
+    &__instruction-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.111vw;
+    }
+    &__icon {
+        width: 3.889vw;
+        height: 1.667vw;
+    }
+    &__text-container {
+        display: flex;
+        padding: 0.833vw 0;
+        justify-content: center;
+        align-items: center;
+        width: 30.417vw;
+        border-top: 0.069vw solid rgba($black, 0.1);
+    }
+    &__text {
+        font-size: 1.125rem;
+        line-height: 140%;
+        color: $black;
+    }
+    &__action-container {
+        display: flex;
+        padding-top: 2.222vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.111vw;
+    }
+    &__note {
+        font-size: 0.9375rem;
+        color: rgba($black, 0.5);
+    }
+}

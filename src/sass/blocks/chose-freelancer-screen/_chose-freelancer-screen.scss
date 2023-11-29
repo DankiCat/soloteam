@@ -1,0 +1,90 @@
+.chose-freelancer {
+    background-color: $biege_2;
+    padding: 4.4444vw 2.2222vw;
+    &__content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.2222vw;
+    }
+    &__article-container {
+        display: flex;
+        padding: 2.2222vw 9.7222vw 2.2222vw 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.7778vw;
+        flex: 1 0 0;
+    }
+    &__title-container {
+        width: 36.9444vw;
+    }
+    &__title {
+        color: $black;
+    }
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+    &__text {
+        width: 34.1667vw;
+        font-size: 1.25vw;
+        line-height: 140%;
+        color: $black;
+    }
+    &__quote-container {
+        width: 37.5vw;
+        height: 10.0694vw;
+        position: relative;
+        width: 36.9444vw;
+        height: 10.0694vw;
+    }
+    &__icon, &__line, &__background-rectangle, &__quote {
+        position: absolute;
+    }
+    &__icon {
+        width: 2.2222vw;
+        height: 2.2222vw;
+        flex-shrink: 0;
+        right: .5556vw;
+        top: 0;
+        z-index: 100;
+    }
+    &__line {
+        width: .2778vw;
+        height: 5vw;
+        border-radius: .1389vw;
+        background-color: $black;
+        top: 3.2639vw;
+        left: .4861vw;
+        z-index: 100;
+    }
+    &__background-rectangle {
+        width: 37.1553vw;
+        height: 7.6389vw;
+        transform: rotate(-2deg);
+        flex-shrink: 0;
+        border-radius: 1.1111vw;
+        border: .0694vw solid rgba($black, 0.05);
+        background-color: $gray;
+        top: 1.7403vw;
+        left: -0.8333vw;
+    }
+    &__quote {
+        width: 34.375vw;
+        font-size: 1.3889vw;
+        line-height: 140%;
+        color: $black;
+        top: 2.7778vw;
+        left: 1.6667vw;
+    }
+    &__image-container {
+        width: 46.6667vw;
+        height: 40.2778vw;
+        flex-shrink: 0;
+    }
+    &__image {
+        width: 100%;
+    }
+}

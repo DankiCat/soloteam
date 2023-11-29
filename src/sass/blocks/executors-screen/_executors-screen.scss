@@ -1,0 +1,51 @@
+.executors {
+    background-color: $biege_2;
+    padding: 4.4444vw 2.2222vw;
+    &__content-wrapper {
+        display: flex;
+        align-items: flex-start;
+        gap: 2.2222vw;
+    }
+    &__image-container {
+        width: 46.6667vw;
+        height: 40.2778vw;
+        flex-shrink: 0;
+    }
+    &__image {
+        width: 100%;
+    }
+    &__article-container {
+        display: flex;
+        padding: 4.4444vw 8.125vw 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.3333vw;
+        flex: 1 0 0;
+    }
+    &__title-container {
+        width: 38.5417vw;
+    }
+    &__benefits-list-container {
+        display: flex;
+        width: 38.5417vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.1111vw;
+    }
+    &__benefit-container {
+        display: flex;
+        height: 3.8889vw;
+        align-items: flex-start;
+        gap: 1.6667vw;
+        align-self: stretch;
+    }
+    &__icon {
+        width: 3.8889vw;
+        height: 3.8889vw;
+    }
+    &__text {
+        width: 32.9861vw;
+        font-size: 1.25vw;
+        line-height: 140%;
+    }
+}

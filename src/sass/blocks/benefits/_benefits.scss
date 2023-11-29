@@ -1,0 +1,30 @@
+.benefits {
+    background-color: $biege_2;
+    padding: 4.4444vw 2.2222vw;
+    &__content-wrapper {
+        display: flex;
+        align-items: flex-start;
+        gap: 3.8889vw 11.6667vw;
+        flex-wrap: wrap;
+    }
+    &__card-container {
+        display: flex;
+        width: 20.8333vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .8333vw;
+    }
+    &__icon {
+        width: 3.8889vw;
+        height: 3.8889vw;
+    }
+    &__card-title {
+        font-size: 1.375rem;
+        font-weight: 500;
+        line-height: 120%;
+    }
+    &__text {
+        font-size: .9375rem;
+        line-height: 140%;
+    }
+}

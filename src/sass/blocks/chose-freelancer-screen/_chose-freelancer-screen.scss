@@ -18,9 +18,6 @@
     &__title-container {
         width: 36.9444vw;
     }
-    &__title {
-        color: $black;
-    }
     &__text-container {
         display: flex;
         flex-direction: column;
@@ -29,9 +26,8 @@
     }
     &__text {
         width: 34.1667vw;
-        font-size: 1.25vw;
+        font-size: 1.125rem;
         line-height: 140%;
-        color: $black;
     }
     &__quote-container {
         width: 37.5vw;
@@ -55,7 +51,6 @@
         width: .2778vw;
         height: 5vw;
         border-radius: .1389vw;
-        background-color: $black;
         top: 3.2639vw;
         left: .4861vw;
         z-index: 100;
@@ -73,9 +68,8 @@
     }
     &__quote {
         width: 34.375vw;
-        font-size: 1.3889vw;
+        font-size: 1.25rem;
         line-height: 140%;
-        color: $black;
         top: 2.7778vw;
         left: 1.6667vw;
     }

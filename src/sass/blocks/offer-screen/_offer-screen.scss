@@ -1,0 +1,59 @@
+.offer {
+    padding: 2.2222vw;
+    background: $biege_2;
+    &__content-wrapper {
+        background-color: $yellow;
+        border-radius: 2.7778vw;
+        position: relative;
+        height: 44.4444vw;
+        overflow: hidden;
+    }
+    &__text-wrapper {
+        display: flex;
+        padding: 3.8889vw 16.3194vw 0 16.3194vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.8889vw;
+    }
+    &__title-container {
+        width: 62.5vw;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__text-container {
+        display: flex;
+        padding: 0 11.3889vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .8333vw;
+        align-self: stretch;
+    }
+    &__text {
+        font-size: 1.5rem;
+        line-height: 140%;
+        &_bold {
+            font-weight: 700;
+        }
+    }
+    &__note {
+        font-size: .9375rem;
+        color: rgba($black, .5);
+    }
+    &__image {
+        position: absolute;
+        &_left {
+            width: 35.4514vw;
+            height: 27.2917vw;
+            bottom: 0;
+            left: 0;
+        }
+        &_right {
+            width: 30.3472vw;
+            height: 27.1528vw;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

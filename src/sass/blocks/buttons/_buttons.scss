@@ -1,21 +1,21 @@
 .btn {
     display: flex;
-    height: 3.611vw;
-    padding: 0.278vw 0.278vw 0.278vw 1.667vw;
-    justify-content: center;
+    height: 3.6111vw;
+    padding: .2778vw .2778vw .2778vw 1.6667vw;
+    justify-content: space-between;
     align-items: center;
-    gap: 0.764vw;
-    border-radius: 2.778vw;
-    border: 0.139vw solid $black;
+    gap: .7639vw;
+    border-radius: 2.7778vw;
+    border: 0.1389vw solid $black;
     background-color: $black;
     color: $white;
-    text-align: center;
+    // text-align: center;
     font-size: 1.125rem;
     transition: all 0.338s;
     position: relative;
     .arrow-container {
-        width: 3.056vw;
-        height: 3.056vw;
+        width: 3.0556vw;
+        height: 3.0556vw;
         img {
             width: 100%;
         }

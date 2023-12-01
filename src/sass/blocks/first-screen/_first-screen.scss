@@ -1,18 +1,18 @@
 .first-screen {
     background-color: $yellow;
-    padding-top: 3.889vw;
+    padding-top: 3.8889vw;
     .container {
-        padding: 0 2.222vw;
+        padding: 0 2.2222vw;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
     }
     .article-container {
         display: flex;
-        padding: 3.889vw 8.125vw 3.889vw 0;
+        padding: 3.8889vw 8.125vw 3.8889vw 0;
         flex-direction: column;
         align-items: flex-start;
-        gap: 4.722vw;
+        gap: 4.7222vw;
         flex: 1 0 0;
         h1 {
             font-weight: 500;
@@ -25,7 +25,7 @@
             width: 39.542vw;
             flex-direction: column;
             align-items: flex-start;
-            gap: 2.222vw;
+            gap: 2.2222vw;
             p {
                 font-size: 1.25rem;
                 line-height: 140%;
@@ -34,11 +34,11 @@
         .process {
             display: flex;
             width: 38.542vw;
-            padding-top: 0.556vw;
+            padding-top: 0.5556vw;
             flex-direction: column;
             align-items: flex-start;
-            gap: 1.667vw;
-            border-top: 0.069vw solid rgba($black, .1);
+            gap: 1.6667vw;
+            border-top: 0.0694vw solid rgba($black, .1);
             &__title {
                 font-size: 1rem;
                 opacity: .5;
@@ -46,18 +46,18 @@
             &__list {
                 display: flex;
                 align-items: flex-start;
-                gap: 0.556vw;
+                gap: 0.5556vw;
             }
             &__item {
-                padding: 0.302vw auto;
-                height: 4.722vw;
+                padding: 0.3022vw auto;
+                height: 4.7222vw;
             }
         }
     }
     .image-container {
-        width: 46.667vw;
-        height: 46.667vw;
-        padding: 3.264vw 10.542vw 4.861vw 8.542vw;
+        width: 46.6667vw;
+        height: 46.6667vw;
+        padding: 3.2639vw 10.542vw 4.8611vw 8.5416vw;
         background-size: no-repeat;
         background-position: center;
         background-size: cover;
@@ -65,8 +65,8 @@
         position: relative;
         .video-box {
             width: 28.125vw;
-            height: 38.542vw;
-            border-radius: 1.319vw;
+            height: 38.5416vw;
+            border-radius: 1.3194vw;
             overflow: hidden;
             video {
                 width: 100%;
@@ -75,16 +75,16 @@
         img {
             position: absolute;
             &.image-table {
-                width: 19.514vw;
-                height: 13.056vw;
+                width: 19.5139vw;
+                height: 13.0556vw;
                 left: 0;
-                top: 10.972vw;
+                top: 10.9722vw;
             }
             &.image-profile {
-                width: 15.556vw;
-                height: 9.444vw;
-                right: 1.667vw;
-                bottom: 10.972vw;
+                width: 15.5556vw;
+                height: 9.4444vw;
+                right: 1.6667vw;
+                bottom: 10.9722vw;
             }
         }
     }   

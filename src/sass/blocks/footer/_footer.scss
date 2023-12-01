@@ -1,0 +1,53 @@
+.footer {
+    background-color: $biege_2;
+    display: flex;
+    padding: 1.1111vw 2.2222vw 6.9444vw 2.2222vw;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-top: .0694vw solid rgba($black, .1);
+    &__left-container {
+        display: flex;
+        align-items: center;
+        gap: 2.7778vw;
+    }
+    &__logo-container {
+        width: 11.4583vw;
+        height: 1.6667vw;
+    }
+    &__logo {
+        width: 100%;
+    }
+    &__contactS-container {
+        display: flex;
+        align-items: flex-start;
+        gap: .8333vw;
+    }
+    &__contact-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__right-container {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.1111vw;
+        font-size: .75rem;
+    }
+    &__contact, &__contact-link {
+        font-size: .9375rem;
+    }
+    &__contact, &__right-container {
+        color: rgba($black, .5);
+    }
+    &__contact-link {
+        color: $black;
+    }
+    &__contact-link:hover {
+        text-decoration: underline;
+    }
+    &__right-container a:hover {
+        text-decoration: underline;
+        color: $black;
+        transition: all 0.169s;
+    }
+}

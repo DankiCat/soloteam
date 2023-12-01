@@ -3,17 +3,17 @@
     &__content-wrapper {
         display: flex;
         width: 100%;
-        padding: 4.444vw 2.222vw;
+        padding: 4.4444vw 2.2222vw;
         justify-content: space-between;
         align-items: flex-start;
     }
     &__article-container {
         display: flex;
-        width: 46.667vw;
-        padding: 2.222vw 5vw 2.222vw 0;
+        width: 46.6667vw;
+        padding: 2.2222vw 5vw 2.2222vw 0;
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.556vw;
+        gap: 0.5556vw;
         flex-shrink: 0;
     }
     &__title {
@@ -21,44 +21,44 @@
     }
     &__quote-container {
         display: flex;
-        padding-top: 0.972vw;
+        padding-top: 0.9722vw;
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.486vw;
+        gap: 0.4861vw;
     }
     &__quote-wrapper {
-        width: 36.944vw;
-        height: 10.417vw;
+        width: 36.9444vw;
+        height: 10.4166vw;
         position: relative;
-        padding: 1.806vw 2.292vw 2.778vw 1.25vw;
+        padding: 1.8056vw 2.2916vw 2.7778vw 1.25vw;
     }
     &__quote-icon, &__background-rectangle, &__line, &__arrow, &__quote-text {
         position: absolute;
     }
     &__quote-icon {
-        width: 2.222vw;
-        height: 2.222vw;
-        top: 0.069vw;
-        left: -0.972vw;
+        width: 2.2222vw;
+        height: 2.2222vw;
+        top: 0.0694vw;
+        left: -0.9722vw;
         z-index: 100;
     }
     &__background-rectangle {
         transform: rotate(-2deg);
         flex-shrink: 0;
-        width: 36.732vw;
-        height: 7.639vw;
-        border-radius: 1.111vw;
+        width: 36.7319vw;
+        height: 7.6389vw;
+        border-radius: 1.1111vw;
         background-color: $biege_1;
         position: absolute;
-        left: -1.111vw;
+        left: -1.1111vw;
         top: 0.5vw;
     }
     &__line {
-        width: 0.278vw;
-        height: 4.583vw;
-        border-radius: 0.139vw;
+        width: 0.2778vw;
+        height: 4.5834vw;
+        border-radius: 0.1389vw;
         background-color: $black;
-        top: 2.708vw;
+        top: 2.7084vw;
         left: 0;
     }
     &__arrow {
@@ -69,21 +69,21 @@
         flex-shrink: 0;
     }
     &__quote-text {
-        width: 33.403vw;
+        width: 33.4028vw;
         font-size: 1.25rem;
         line-height: 140%;
         position: absolute;
-        top: 1.806vw;
+        top: 1.8056vw;
         left: 1.25vw;
     }
     &__text {
-        width: 34.167vw;
+        width: 34.1667vw;
         font-size: 1.125rem;
         line-height: 140%;
     }
     &__image-container {
-        width: 46.667vw;
-        height: 40.278vw;
+        width: 46.6667vw;
+        height: 40.2778vw;
         flex-shrink: 0;
     }
     &__image {

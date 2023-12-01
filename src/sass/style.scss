@@ -11,7 +11,7 @@
 }
 
 html {
-    font-size: 1.111vw;
+    font-size: 1.1111vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -30,8 +30,8 @@ body {
 } */
 
 .anchor {
-    margin-top: -4.722vw;
-    margin-bottom: 4.722vw;
+    margin-top: -4.7222vw;
+    margin-bottom: 4.7222vw;
 }
 
 /* Подключение стилей кнопок и заголовков*/
@@ -47,6 +47,7 @@ body {
 @import 'blocks/chose-freelancer-screen/chose-freelancer-screen';
 @import 'blocks/benefits-screen/benefits-screen';
 @import 'blocks/offer-screen/offer-screen';
+@import 'blocks/footer/footer';
 
 /* Подключение шрифта Antonym*/
 @font-face {

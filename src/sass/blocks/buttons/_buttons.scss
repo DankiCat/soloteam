@@ -23,11 +23,11 @@
     &:hover {
         background-color: rgba($black, 0.75);
     }
-    &__header {
+    &_header {
         display: flex;
-        height: 3.056vw;
-        padding: 0.278vw 1.389vw;
-        border: 0.069vw solid $black;
+        height: 3.0556vw;
+        padding: 0.2778vw 1.3889vw;
+        border: 0.0694vw solid $black;
         background-color: $white;
         font-size: 0.9375rem;
         color: $black;

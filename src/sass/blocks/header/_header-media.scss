@@ -1,0 +1,39 @@
+@media (min-width: 1440.02px) {
+    header {
+        padding: 12px 32px 12px 32px;
+        .logo_box {
+            width: 165px;
+            height: 24px;
+        }
+        .wrapper {
+            padding-left: 40px;
+            .menu {
+                gap: 32px;
+                &__link {
+                    font-size: 0.9375rem;
+                    &::before {
+                        bottom: -2px;
+                        height: 1px;
+                    }
+                    &_faded {
+                        &:last-child {
+                            &::before {
+                                letter-spacing: -0.2448px;
+                                top: -12.24px;
+                                left: calc(100% - 11px);
+                                padding: 0.72px 4px 2.16px 4px;
+                                width: 43px;
+                                height: 16px;
+                                border-radius: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+            .login_container {
+                height: 44px;
+                gap: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@media (min-width: 1440.02px) {
+    .title {
+        &_h1, &_h1 i {
+            letter-spacing: -1.28px;
+        }
+        &_h2, &_h2 i {
+            letter-spacing: -1px;
+        }
+    }
+}

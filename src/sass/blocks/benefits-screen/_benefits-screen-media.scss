@@ -1,0 +1,16 @@
+@media (min-width: 1440.02px) {
+    .benefits {
+        padding: 64px 32px;
+        &__content-wrapper {
+            gap: 56px 168px;
+        }
+        &__card-container {
+            width: 300px;
+            gap: 12px;
+        }
+        &__icon {
+            width: 56px;
+            height: 56px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@media (min-width: 1440.02px) {
+    .find-freelancer {
+        padding: 48px 32px;
+        &__content-wrapper {
+            gap: 30px;
+            border-radius: 40px;
+        }
+        &__left-container {
+            padding-top: 72px;
+            gap: 23px;
+        }
+        &__title-container {
+            width: 672px;
+            padding-left: 48px;
+        }
+        &__image-container {
+            width: 672px;
+            height: 400px;
+        }
+        &__instruction-list-container {
+            padding: 72px 117px;
+            gap: 16px;
+        }
+        &__instruction-container {
+            gap: 16px;
+        }
+        &__icon {
+            width: 56px;
+            height: 24px;
+        }
+        &__text-container {
+            padding: 12px 0;
+            width: 438px;
+            border-top: 1px solid rgba($black, 0.1);
+        }
+        &__action-container {
+            padding-top: 32px;
+            gap: 16px;
+        }
+    }
+}

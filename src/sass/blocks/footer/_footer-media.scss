@@ -1,0 +1,19 @@
+@media (min-width: 1440.02px) {
+    .footer {
+        padding: 16px 32px 100px 32px;
+        border-top: 1px solid rgba($black, .1);
+        &__left-container {
+            gap: 40px;
+        }
+        &__logo-container {
+            width: 165px;
+            height: 24px;
+        }
+        &__contactS-container {
+            gap: 12px;
+        }
+        &__right-container {
+            gap: 16px;
+        }
+    }
+}

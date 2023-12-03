@@ -1,6 +1,53 @@
 /* Импорт шрифта Golos Text из Google Fonts API */
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap');
 
+/* Подключение шрифта Antonym*/
+@font-face {
+  font-family: 'Antonym';
+  src: url("../fonts/antonym/antonym.eot");
+  src: local("Antonym"), url("../fonts/antonym/antonym.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym.woff2") format("woff2"), url("../fonts/antonym/antonym.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Antonym';
+  src: url("../fonts/antonym/antonym-italic.eot");
+  src: local("Antonym Italic"), local("Antonym-Italic"), url("../fonts/antonym/antonym-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-italic.woff2") format("woff2"), url("../fonts/antonym/antonym-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Antonym';
+  src: url("../fonts/antonym/antonym-light.eot");
+  src: local("Antonym Light"), local("Antonym-Light"), url("../fonts/antonym/antonym-light.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-light.woff2") format("woff2"), url("../fonts/antonym/antonym-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Antonym';
+  src: url("../fonts/antonym/antonym-light-italic.eot");
+  src: local("Antonym Light Italic"), local("Antonym-LightItalic"), url("../fonts/antonym/antonym-light-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-light-italic.woff2") format("woff2"), url("../fonts/antonym/antonym-light-italic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; 
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Antonym';
+  src: url("../fonts/antonym/antonym-medium.eot");
+  src: url("../fonts/antonym/antonym-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-medium.woff2") format("woff2"), url("../fonts/antonym/antonym-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; 
+}
+
 /* Импорт переменных и миксинов */
 @import 'base/variables';
 
@@ -24,69 +71,63 @@ body {
     overflow-x: hidden;
 }
 
-/* .container {
-    width: 1440px;
-    margin: 0 auto;
-} */
+.container {
+    width: inherit;
+    margin: inherit;
+}
 
 .anchor {
     margin-top: -4.7222vw;
     margin-bottom: 4.7222vw;
 }
 
+@media (min-width: 1440.02px) {
+    html {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .anchor {
+        margin-top: -68px;
+        margin-bottom: 68px;
+    }
+}
+
 /* Подключение стилей кнопок и заголовков*/
 @import 'blocks/buttons/buttons';
+@import 'blocks/buttons/buttons-media';
+
 @import 'blocks/titles/titles';
+@import 'blocks/titles/titles-media';
 
 /* Подключение стилей блоков */
 @import 'blocks/header/header';
-@import 'blocks/first-screen/first-screen';
-@import 'blocks/db-screen/db-screen';
-@import 'blocks/find-freelancer-screen/find-freelancer-screen';
-@import 'blocks/executors-screen/executors-screen';
-@import 'blocks/chose-freelancer-screen/chose-freelancer-screen';
-@import 'blocks/benefits-screen/benefits-screen';
-@import 'blocks/offer-screen/offer-screen';
-@import 'blocks/footer/footer';
+@import 'blocks/header/header-media';
 
-/* Подключение шрифта Antonym*/
-@font-face {
-    font-family: 'Antonym';
-    src: url("../fonts/antonym/antonym.eot");
-    src: local("Antonym"), url("../fonts/antonym/antonym.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym.woff2") format("woff2"), url("../fonts/antonym/antonym.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap; }
-  
-  @font-face {
-    font-family: 'Antonym';
-    src: url("../fonts/antonym/antonym-italic.eot");
-    src: local("Antonym Italic"), local("Antonym-Italic"), url("../fonts/antonym/antonym-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-italic.woff2") format("woff2"), url("../fonts/antonym/antonym-italic.woff") format("woff");
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap; }
-  
-  @font-face {
-    font-family: 'Antonym';
-    src: url("../fonts/antonym/antonym-light.eot");
-    src: local("Antonym Light"), local("Antonym-Light"), url("../fonts/antonym/antonym-light.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-light.woff2") format("woff2"), url("../fonts/antonym/antonym-light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap; }
-  
-  @font-face {
-    font-display: swap;
-    font-family: 'Antonym';
-    src: url("../fonts/antonym/antonym-light-italic.eot");
-    src: local("Antonym Light Italic"), local("Antonym-LightItalic"), url("../fonts/antonym/antonym-light-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-light-italic.woff2") format("woff2"), url("../fonts/antonym/antonym-light-italic.woff") format("woff");
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap; }
-  
-  @font-face {
-    font-display: swap;
-    font-family: 'Antonym';
-    src: url("../fonts/antonym/antonym-medium.eot");
-    src: url("../fonts/antonym/antonym-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-medium.woff2") format("woff2"), url("../fonts/antonym/antonym-medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal; }
+@import 'blocks/first-screen/first-screen';
+@import 'blocks/first-screen/first-screen-media';
+
+@import 'blocks/db-screen/db-screen';
+@import 'blocks/db-screen/db-screen-media';
+
+@import 'blocks/find-freelancer-screen/find-freelancer-screen';
+@import 'blocks/find-freelancer-screen/find-freelancer-screen-media';
+
+@import 'blocks/executors-screen/executors-screen';
+@import 'blocks/executors-screen/executors-screen-media';
+
+@import 'blocks/chose-freelancer-screen/chose-freelancer-screen';
+@import 'blocks/chose-freelancer-screen/chose-freelancer-screen-media';
+
+@import 'blocks/benefits-screen/benefits-screen';
+@import 'blocks/benefits-screen/benefits-screen-media';
+
+@import 'blocks/offer-screen/offer-screen';
+@import 'blocks/offer-screen/offer-screen-media';
+
+@import 'blocks/footer/footer';
+@import 'blocks/footer/footer-media';

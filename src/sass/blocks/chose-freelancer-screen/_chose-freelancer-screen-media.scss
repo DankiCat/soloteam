@@ -1,0 +1,51 @@
+@media (min-width: 1440.02px) {
+    .chose-freelancer {
+        padding: 64px 32px;
+        &__content-wrapper {
+            gap: 32px;
+        }
+        &__article-container {
+            padding: 32px 140px 32px 0;
+            gap: 40px;
+        }
+        &__title-container {
+            width: 532px;
+        }
+        &__text {
+            width: 492px;
+        }
+        &__quote-container {
+            width: 532px;
+            height: 145px;
+        }
+        &__icon {
+            width: 32px;
+            height: 32px;
+            right: 8px;
+        }
+        &__line {
+            width: 4px;
+            height: 72px;
+            border-radius: 2px;
+            top: 47px;
+            left: 7px;
+        }
+        &__background-rectangle {
+            width: 535px;
+            height: 110px;
+            border-radius: 16px;
+            border: 1px solid rgba($black, 0.05);
+            top: 25px;
+            left: -12px;
+        }
+        &__quote {
+            width: 495px;
+            top: 40px;
+            left: 24px;
+        }
+        &__image-container {
+            width: 672px;
+            height: 580px;
+        }
+    }
+}

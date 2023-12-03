@@ -1,0 +1,34 @@
+@media (min-width: 1440.02px) {
+    .executors {
+        padding: 64px 32px;
+        &__content-wrapper {
+            gap: 32px;
+        }
+        &__image-container {
+            width: 672px;
+            height: 580px;
+        }
+        &__article-container {
+            padding: 64px 117px 0 0;
+            gap: 48px;
+        }
+        &__title-container {
+            width: 555px;
+        }
+        &__benefits-list-container {
+            width: 555px;
+            gap: 16px;
+        }
+        &__benefit-container {
+            height: 56px;
+            gap: 24px;
+        }
+        &__icon {
+            width: 56px;
+            height: 56px;
+        }
+        &__text {
+            width: 475px;
+        }
+    }
+}

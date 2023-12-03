@@ -1,0 +1,30 @@
+@media (min-width: 1440.02px) {
+    .offer {
+        padding: 32px;
+        &__content-wrapper {
+            border-radius: 40px;
+            height: 640px;
+        }
+        &__text-wrapper {
+            padding: 56px 235px 0 235px;
+            gap: 56px;
+        }
+        &__title-container {
+            width: 900px;
+        }
+        &__text-container {
+            padding: 0 164px;
+            gap: 12px;
+        }
+        &__image {
+            &_left {
+                width: 510.5px;
+                height: 393px;
+            }
+            &_right {
+                width: 437px;
+                height: 391px;
+            }
+        }
+    }
+}

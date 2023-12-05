@@ -97,6 +97,12 @@ body {
     }
 }
 
+@media (max-width: 1024.02px) {
+    html {
+        font-size: 1.5625vw;
+    }
+}
+
 /* Подключение стилей кнопок и заголовков*/
 @import 'blocks/buttons/buttons';
 @import 'blocks/buttons/buttons-media';

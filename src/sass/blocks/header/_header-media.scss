@@ -37,3 +37,43 @@
         }
     }
 }
+
+@media (max-width: 1024.02px) {
+    header {
+        padding: 1.1719vw 1.5625vw 1.1719vw 1.5625vw;
+        .logo_box {
+            width: 10.7422vw;
+            height: 1.5625vw;
+        }
+        .wrapper {
+            padding-left: 3.9063vw;
+            .menu {
+                gap: 1.5625vw;
+                &__link {
+                    font-size: .875rem;
+                    &::before {
+                        bottom: -0.1953vw;
+                        height: .0977vw;
+                    }
+                    &_faded {
+                        &:last-child {
+                            &::before {
+                                letter-spacing: -0.0234vw;
+                                top: -1.293vw;
+                                left: calc(100% - 1.0742vw);
+                                padding: 0 .3906vw .1953vw .3906vw;
+                                width: 4.1992vw;
+                                height: 1.5625vw;
+                                border-radius: 2.3438vw;
+                            }
+                        }
+                    }
+                }
+            }
+            .login_container {
+                height: 4.2969vw;
+                gap: .9766vw;
+            }
+        }
+    }
+}

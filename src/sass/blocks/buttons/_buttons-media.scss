@@ -19,3 +19,25 @@
         }
     }
 }
+
+@media (max-width: 1024.02px) {
+    .btn {
+        height: 4.2969vw;
+        padding: .3906vw .3906vw .3906vw 2.3438vw;
+        gap: 1.0742vw;
+        border-radius: 3.9063vw;
+        border: .1953vw solid $black;
+        font-size: 1rem;
+        .arrow-container {
+            width: 3.5156vw;
+            height: 3.5156vw;
+        }
+        &_header {
+            padding: .3906vw 1.9531vw;
+            border: .0977vw solid $black;
+            &_invisible {
+                border: none;
+            }
+        }
+    }
+}

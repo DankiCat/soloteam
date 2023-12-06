@@ -1,7 +1,10 @@
 @media (min-width: 1440.02px) {
     .offer {
-        padding: 32px;
+        padding: 32px 0;
         &__content-wrapper {
+            padding: 0;
+            width: 1376px;
+            margin: 0 auto;
             border-radius: 40px;
             height: 640px;
         }
@@ -24,6 +27,44 @@
             &_right {
                 width: 437px;
                 height: 391px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024.02px) {
+    .offer {
+        padding: 3.125vw 1.5625vw;
+        &__content-wrapper {
+            margin: 0 auto;
+            border-radius: 3.9063vw;
+            height: 53.8086vw;
+        }
+        &__text-wrapper {
+            padding: 5.4688vw 8.5938vw 0vw 8.5938vw;
+            gap: 4.6875vw;
+        }
+        &__title-container {
+            width: 79.6875vw;
+        }
+        &__text-container {
+            padding: 0 16.0156vw;
+            gap: 12px;
+        }
+        &__text {
+            font-size: 1.25rem;
+        }
+        &__note {
+            font-size: .875rem;
+        }
+        &__image {
+            &_left {
+                width: 38.5742vw;
+                height: 29.6875vw;
+            }
+            &_right {
+                width: 38.5742vw;
+                height: 34.5138vw;
             }
         }
     }

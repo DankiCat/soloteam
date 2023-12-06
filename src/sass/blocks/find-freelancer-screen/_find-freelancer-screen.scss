@@ -4,7 +4,7 @@
     &__content-wrapper {
         display: flex;     
         align-items: flex-start;
-        gap: 2.0833vw;
+        justify-content: space-between;
         border-radius: 2.7778vw;
         background-color: $yellow;
     }

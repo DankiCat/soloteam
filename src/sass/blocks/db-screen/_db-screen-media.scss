@@ -1,7 +1,9 @@
 @media (min-width: 1440.02px) {
     .db {
+        padding: 64px 0;
         &__content-wrapper {
-            padding: 64px 32px;
+            padding: 0 32px;
+            gap: 32px;
         }
         &__article-container {
             width: 672px;
@@ -9,7 +11,7 @@
             gap: 8px;
         }
         &__quote-container {
-            padding-top: 14px;
+            padding-top: 16px;
             gap: 7px;
         }
         &__quote-wrapper {
@@ -53,6 +55,66 @@
         &__image-container {
             width: 672px;
             height: 580px;
+        }
+    }
+}
+
+@media (max-width: 1024.02px) {
+    .db {
+        padding: 6.25vw 1.5625vw;
+        &__article-container {
+            width: 46.875vw;
+            padding: 0 3.125vw 0 0;
+            gap: .7813vw;
+        }
+        &__quote-container {
+            padding-top: 1.3672vw;
+            gap: .7813vw;
+        }
+        &__quote-wrapper {
+            width: 46.875vw;
+            height: 16.2109vw;
+            padding: 3.0273vw 11.2305vw 2.4414vw 2.5391vw;
+        }
+        &__quote-icon {
+            width: 3.125vw;
+            height: 3.125vw;
+            top: .0977vw;
+            left: -0.5859vw;
+        }
+        &__background-rectangle {
+            width: 38.2813vw;
+            height: 12.6953vw;
+            border-radius: 1.5625vw;
+            left: -0.7813vw;
+            top: .5127vw;
+        }
+        &__line {
+            width: .3906vw;
+            height: 8.3984vw;
+            border-radius: .1953vw;
+            top: 3.8086vw;
+            left: .7813vw;
+        }
+        &__arrow {
+            width: 13.1886vw;
+            height: 5.6903vw;
+            bottom: -0.0977vw;
+            right: 6.0176vw;
+        }
+        &__quote-text {
+            width: 33.1055vw;
+            top: 2.832vw;
+            left: 2.5391vw;
+            font-size: 1.7578vw;
+        }
+        &__text {
+            width: 39.0625vw;
+            font-size: 1rem;
+        }
+        &__image-container {
+            width: 46.875vw;
+            height: 40.4297vw;
         }
     }
 }

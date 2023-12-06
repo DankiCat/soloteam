@@ -1,7 +1,8 @@
 @media (min-width: 1440.02px) {
     .benefits {
-        padding: 64px 32px;
+        padding: 64px 0;
         &__content-wrapper {
+            padding: 0 32px;
             gap: 56px 168px;
         }
         &__card-container {
@@ -11,6 +12,27 @@
         &__icon {
             width: 56px;
             height: 56px;
+        }
+    }
+}
+
+@media (max-width: 1024.02px) {
+    .benefits {
+        padding: 6.25vw 1.5625vw;
+        &__content-wrapper {
+            padding: 0;
+            gap: 4.6875vw 3.125vw;
+        }
+        &__card-container {
+            width: 29.595vw;
+            gap: 1.1719vw;
+        }
+        &__icon {
+            width: 5.4688vw;
+            height: 5.4688vw;
+        }
+        &__card-title {
+            font-size: 1.125rem;
         }
     }
 }

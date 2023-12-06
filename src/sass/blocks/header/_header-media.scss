@@ -1,6 +1,9 @@
 @media (min-width: 1440.02px) {
     header {
         padding: 12px 32px 12px 32px;
+        &.border {
+            border-bottom: 1px solid $black;
+        }
         .logo_box {
             width: 165px;
             height: 24px;
@@ -41,6 +44,10 @@
 @media (max-width: 1024.02px) {
     header {
         padding: 1.1719vw 1.5625vw 1.1719vw 1.5625vw;
+        &.border {
+            transition: all 0.169s;
+            border-bottom: .0977vw solid $black;
+        }
         .logo_box {
             width: 10.7422vw;
             height: 1.5625vw;
@@ -53,7 +60,6 @@
                     font-size: .875rem;
                     &::before {
                         bottom: -0.1953vw;
-                        height: .0977vw;
                     }
                     &_faded {
                         &:last-child {

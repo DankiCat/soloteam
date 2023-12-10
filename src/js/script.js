@@ -31,24 +31,22 @@ menuHamburger.addEventListener('click', () => {
 })
 
 header.querySelector('.logo').addEventListener('click', () => {
-  menuHamburger.classList.remove('close');
-  header.classList.remove('white');
-  menu.classList.remove('white');
-  overlay.classList.remove('active');
+  closeMenu() 
 })
 
 header.querySelector('.btn_close').addEventListener('click', () => {
-  menuHamburger.classList.remove('close');
-  header.classList.remove('white');
-  menu.classList.remove('white');
-  overlay.classList.remove('active');
+  closeMenu() 
 })
 
 menu.childNodes.forEach(node => {
   node.addEventListener('click', () => {
-    menuHamburger.classList.remove('close');
-    header.classList.remove('white');
-    menu.classList.remove('white');
-    overlay.classList.remove('active');
+    closeMenu()
   })
 })
+
+function closeMenu() {
+  menuHamburger.classList.remove('close');
+  header.classList.remove('white');
+  menu.classList.remove('white');
+  overlay.classList.remove('active');
+}

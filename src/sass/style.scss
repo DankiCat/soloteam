@@ -69,6 +69,10 @@ body {
     -webkit-user-select: none;
     user-select: none;
     overflow-x: hidden;
+    overflow-y: auto;
+    &.scroll {
+        overflow-y: hidden;
+    }
 }
 
 .container {
@@ -100,6 +104,17 @@ body {
 @media (max-width: 1024.02px) {
     html {
         font-size: 1.5625vw;
+    }
+}
+
+@media (max-width: 768.02px) {
+    html {
+        font-size: 2.0833vw;
+    }
+
+    .anchor {
+        margin-top: -60px;
+        margin-bottom: 60px;
     }
 }
 

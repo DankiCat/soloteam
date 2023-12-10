@@ -130,6 +130,11 @@
                 padding-top: 3.125vw;                       
                 &__link {
                     font-size: 1.9531vw;
+                    &:hover {
+                        &::before {
+                            display: none;
+                        }
+                    }
                     &:active {
                         opacity: 0.69;
                         transition: all .169s;

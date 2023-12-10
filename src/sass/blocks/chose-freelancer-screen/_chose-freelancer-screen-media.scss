@@ -102,3 +102,65 @@
         }
     }
 }
+
+@media (max-width: 768.02px) {
+    .chose-freelancer {
+        padding: 7.2917vw 6.25vw;
+        &__content-wrapper {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 2.0833vw;
+            align-self: stretch;
+        }
+        &__article-container {
+            padding: 0;
+            min-width: 100%;
+        }
+        &__title-container {
+            width: 65.1042vw;
+        }
+        &__text-container {
+            width: 100%;
+        }
+        &__text {
+            width: 65.1042vw;
+            font-size: .9375rem;
+        }
+        &__quote-container {
+            margin-top: -1.5625vw;
+            width: 100%;
+            height: 22.6563vw;
+        }
+        &__icon {
+            width: 4.1667vw;
+            height: 4.1667vw;
+            top: .0651vw;
+            right: 9.1146vw;
+        }
+        &__line {
+            width: .5208vw;
+            height: 9.375vw;
+            border-radius: .5208vw;
+            top: 6.4453vw;
+            left: 1.1719vw;
+        }
+        &__background-rectangle {
+            width: 77.8646vw;
+            height: 14.3229vw;
+            border-radius: 1.5625vw;
+            border: .1302vw solid rgba($black, 0.05);
+            top: 3.1458vw;
+            left: -1.0417vw;
+        }
+        &__quote {
+            width: 65.1042vw;
+            top: 6.3151vw;
+            left: 3.3854vw;
+            font-size: 1.0625rem;
+        }
+        &__image-container {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -87,3 +87,61 @@
         }
     }
 }
+
+@media (max-width: 768.02px) {
+    .find-freelancer {
+        padding: 5.2083vw 6.25vw;
+        &__content-wrapper {
+            padding: 0 5.2083vw;
+            border-radius: 3.125vw;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4.1667vw;
+            align-self: stretch;
+        }
+        &__left-container {
+            width: 77.0833vw;
+            height: 54.0365vw;
+            padding-top: 0;
+            gap: 0;
+        }
+        &__title-container {
+            width: 77.0833vw;
+            padding: 4.1667vw 0vw 1.0417vw 0vw;
+            justify-content: center;
+            align-items: center;
+        }
+        &__image-container {
+            margin-top: -4.1667vw;
+            margin-bottom: -0.5208vw;
+            width: 77.0833vw;
+            height: 45.9635vw;
+            flex-shrink: 0;
+        }
+        &__instruction-list-container {
+            padding: 0 0 4.1667vw 0;
+            gap: 1.5625vw;
+            align-self: stretch;
+        }
+        &__instruction-container {
+            gap: 1.5625vw;
+        }
+        &__icon {
+            width: 7.2917vw;
+            height: 3.125vw;
+        }
+        &__text-container {
+            padding: 1.5625vw 0;
+            width: 100%;
+            border-top: .1302vw solid rgba($black, 0.1);            
+        }
+        &__text {
+            font-size: .9375rem;
+        }
+        &__action-container {
+            padding-top: 4.1667vw;
+            gap: 2.0833vw;
+        }
+    }
+}

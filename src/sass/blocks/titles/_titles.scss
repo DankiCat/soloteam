@@ -7,9 +7,14 @@
         letter-spacing: -0.0889vw;
         font-size:  4rem;
         line-height: 110%;
+        font-weight: 500;
+    }
+    &_h1 i {
+        font-weight: 400;
     }
     &_h2, &_h2 i {
         font-size: 3.125rem;
         letter-spacing: -0.0694vw;
+        font-weight: 400;
     }
 }

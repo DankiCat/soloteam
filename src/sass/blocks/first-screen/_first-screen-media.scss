@@ -65,7 +65,6 @@
                 padding-right: 3.9063vw;
                 p {
                     font-size: 1rem;
-                    line-height: 140%;
                 }
             }
             .process {
@@ -104,6 +103,84 @@
                     height: 9.375vw;
                     right: .7813vw;
                     bottom: 20.1172vw;
+                }
+            }
+        }   
+    }
+}
+
+@media (max-width: 768.02px) {
+    .first-screen {
+        padding: 7.8125vw 6.25vw 0 6.25vw;
+        .container {
+            padding: 0;
+            flex-direction: column-reverse;
+            padding-bottom: 5.2083vw;
+            align-items: center;
+            flex: 1 0 0;
+        }
+        .article-container {
+            margin-top: -10.1563vw;
+            padding: 0;
+            align-items: center;
+            gap: 6.25vw;
+            align-self: stretch;
+            .article {
+                align-items: center;
+                gap: 3.125vw;
+                align-self: stretch;
+                width: 100%;
+                padding: 0;
+                .title {
+                    width: 65.1042vw;
+                    text-align: center;
+                }
+                p {
+                    font-size: 1.0625rem;
+                    width: 65.1042vw;
+                    text-align: center;
+                }
+            }
+            .process {
+                width: 87.5vw;
+                padding-top: 1.0417vw;
+                align-items: center;
+                gap: 3.125vw;
+                &__title {
+                    font-size: 1.0625rem;
+                }
+                &__list {
+                    gap: 1.0417vw;
+                }
+                &__item {
+                    padding: 0 auto;
+                    height: 8.8542vw;
+                }
+            }
+        }
+        .image-container {
+            margin: 0 14.974vw 0 18.3594vw;
+            width: 66.6667vw;
+            height: 78.3854vw;
+            padding: 8.0729vw 14.5237vw 0 12.3698vw;
+            background-size: 66.6667vw;
+            background-position: 0 3.17vw;
+            .video-box {
+                width: 39.7732vw;
+                height: 54.5573vw;  
+                border-radius: 1.5625vw;
+            }
+            img {
+                &.image-table {
+                    width: 27.2467vw;
+                    height: 18.2292vw;
+                    top: 14.3229vw;
+                }
+                &.image-profile {
+                    width: 20.5883vw;
+                    height: 12.5vw;
+                    right: 3.125vw;
+                    top: 36.7188vw;
                 }
             }
         }   

@@ -62,14 +62,14 @@
                         bottom: -0.1953vw;
                     }
                     &_faded {
-                        &:last-child {
-                            &::before {
+                        &.soon-label {
+                            &::after {
                                 letter-spacing: -0.0234vw;
                                 top: -1.293vw;
                                 left: calc(100% - 1.0742vw);
                                 padding: 0 .3906vw .1953vw .3906vw;
-                                width: 4.1992vw;
-                                height: 1.5625vw;
+                                width: 4.218vw;
+                                height: 1.3672vw;
                                 border-radius: 2.3438vw;
                             }
                         }
@@ -115,6 +115,7 @@
                     pointer-events: all;
                 }
                 position: absolute;
+                // box-shadow: 0vw 2.6042vw 9.375vw 0vw rgba(46, 28, 0, 0.10);
                 top: 7.6823vw;
                 right: 0;
                 width: 100%;
@@ -129,12 +130,16 @@
                 padding-top: 3.125vw;                       
                 &__link {
                     font-size: 1.9531vw;
-                    &::before {
-                        display: none;
-                    }
                     &:active {
                         opacity: 0.69;
                         transition: all .169s;
+                    }
+                    &_faded {
+                        &.soon-label {
+                            &::after {
+                                display: none;
+                            }
+                        }
                     }
                 }
                 .buttons-mobile {
@@ -157,6 +162,7 @@
             display: flex;
             padding: 1.1719vw .9115vw;
             height: 5.0781vw;
+            width: 5.7292vw;
             flex-direction: column;
             justify-content: flex-end;
             align-items: flex-start;
@@ -187,10 +193,10 @@
         }
         .overlay {
             position: absolute;
-            top: 47vh;
+            top: 55.5vw;
             left: 0;
             width: 100vw;
-            height: 53vh;
+            height: calc(100vh - 55.599vw);
             background-color: rgba($black, 0.1);
             opacity: 0;
             pointer-events: none;

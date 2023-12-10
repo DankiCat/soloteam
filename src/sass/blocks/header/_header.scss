@@ -57,15 +57,16 @@ header {
                 &_faded {
                     color: rgba($black, .32);
                     pointer-events: none;
-                    &:last-child {
+                    &.soon-label {
                         position: relative;
-                        &::before {
-                            transition: all 0.169s;
+                        &::after {
+                            width: 2.4306vw;
+                            height: 0.9722vw;
                             position: absolute;
                             content: "скоро";
                             font-size: 0.75rem;
                             letter-spacing: -0.017vw;
-                            color:rgba($black, .5);
+                            color: rgba($black, .5);
                             top: -0.85vw;
                             left: calc(100% - 0.7639vw);
                             padding: 0.05vw 0.278vw 0.15vw 0.278vw;

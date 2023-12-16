@@ -115,8 +115,7 @@
                     pointer-events: all;
                 }
                 position: absolute;
-                // box-shadow: 0vw 2.6042vw 9.375vw 0vw rgba(46, 28, 0, 0.10);
-                top: 7.6823vw;
+                top: 7.5521vw;
                 right: 0;
                 width: 100%;
                 flex-direction: column;
@@ -125,11 +124,11 @@
                 gap: 2.6042vw;
                 align-self: stretch;
                 background-color: $white;
-                border-radius: 0vw 0vw 3.125vw 3.125vw;
+                border-radius: 0 0 3.125vw 3.125vw;
                 z-index: 100;
-                padding-top: 3.125vw;                       
+                padding-top: 3.3854vw;                       
                 &__link {
-                    font-size: 1.9531vw;
+                    font-size: .9375rem;
                     &:hover {
                         &::before {
                             display: none;
@@ -210,6 +209,69 @@
                 opacity: 1;
                 pointer-events: all;
             }
+        }
+    }
+}
+
+@media (max-width: 526.02px) {
+    header {
+        padding: 2.1333vw 4.2667vw;
+        &.border {
+            border-bottom: .2667vw solid $black;
+        }
+        .logo_box {
+            width: 29.3333vw;
+            height: 4.2667vw;
+        }
+        .wrapper {
+            height: 11.7333vw;
+            gap: 2.6667vw;
+            align-items: center;
+            .menu {
+                top: 15.4667vw;
+                gap: 5.3333vw;
+                border-radius: 0 0 6.4vw 6.4vw;
+                padding-top: 6.9333vw;                       
+                .buttons-mobile {
+                    padding: 6.4vw 4.2667vw 10.6667vw 4.2667vw;
+                    gap: 3.4667vw;
+                }
+            }
+            .login_container {
+                height: 11.7333vw;
+                padding-top: 1.6vw;
+            }
+        }
+        .menu-hamburger {
+            padding: 2.4vw 1.8667vw;
+            height: 10.4vw;
+            width: 11.7333vw;
+            gap: 2.1333vw;
+            span {
+                width: 8vw;
+                height: .2667vw;
+                background-color: $black;
+            }
+            &.close {
+                gap: 0;
+                span:nth-child(1) {
+                    width: 8.1173vw;
+                    transform: rotate(45deg);
+                    margin-top: 2.6667vw;
+                }
+                span:nth-child(2) {
+                    display: none;
+                }
+                span:nth-child(3) {
+                    width: 8.1173vw;
+                    transform: rotate(-45deg);
+                    margin-bottom: 2.6667vw;
+                }
+            }
+        }
+        .overlay {
+            top: 100vw;
+            height: calc(100vh - 100vw);
         }
     }
 }

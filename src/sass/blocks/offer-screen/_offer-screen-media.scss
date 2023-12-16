@@ -110,3 +110,36 @@
         }
     }
 }
+
+@media (max-width: 526.02px) {
+    .offer {
+        padding: 8.5333vw 0;
+        &__content-wrapper {
+            width: 100%;
+            border-radius: 10.6667vw;
+            height: 177.0667vw;
+            padding: 0;
+        }
+        &__text-wrapper {
+            width: 95%;
+            padding: 14.9333vw 6.4vw 0 6.4vw;
+            gap: 8.5333vw;
+        }
+        &__title-container {
+            width: 100%;
+        }
+        &__text-container {
+            gap: 3.2vw;
+            text-align: center;
+        }
+        &__image {
+            &_left {
+                width: 93.6vw;
+                height: 72.0565vw;
+            }
+            &_right {
+                display: none;
+            }
+        }
+    }
+}

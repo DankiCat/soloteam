@@ -103,3 +103,41 @@
         }
     }
 }
+
+@media (max-width: 526.02px) {
+    .executors {
+        padding: 14.9333vw 4.2667vw;
+        &__content-wrapper {
+            gap: 4.2667vw;
+        }
+        &__image-container {
+            width: 100%;
+            height: 90.2221vw;
+        }
+        &__image {
+            width: 104.5333vw;
+        }
+        &__article-container {
+            gap: 8.5333vw;
+        }
+        &__title-container {
+            width: 100%;
+        }
+        &__benefits-list-container {
+            padding: 0 0 4.2667vw 0;
+            gap: 6.4vw;
+        }
+        &__benefit-container {
+            height: 11.2vw;
+            gap: 2.1333vw;
+            padding-right: 8.5333vw;
+        }
+        &__icon {
+            width: 10.6667vw;
+            height: 10.6667vw;
+        }
+        &__text {
+            width: 100%;
+        }
+    }
+}

@@ -76,3 +76,28 @@
         }
     }
 }
+
+@media (max-width: 526.02px) {
+    .footer {
+        padding: 6.4vw 4.2667vw;
+        border-top: .2667vw solid rgba($black, .1);
+        flex-direction: column;
+        gap: 6.4vw;
+        &__left-container {
+            gap: 4.2667vw;
+            width: 100%;
+        }
+        &__logo-container {
+            width: 29.3333vw;
+            height: 4.2667vw;
+        }
+        &__contactS-container {
+            gap: 3.2vw;
+            width: 100%;
+        }
+        &__right-container {
+            gap: 8px;
+            width: 100%;
+        }
+    }
+}

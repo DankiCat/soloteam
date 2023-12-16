@@ -186,3 +186,80 @@
         }   
     }
 }
+
+@media (max-width: 526.02px) {
+    .first-screen {
+        padding: 16vw 4.2667vw 0 4.2667vw;
+        .container {
+            padding: 4.2667vw 0 8.5333vw 0;
+            gap: 6.4vw;
+        }
+        .article-container {
+            margin: 0;
+            padding: 0;
+            gap: 17.0667vw;
+            .article {
+                gap: 6.4vw;
+                width: 100%;
+                padding: 0;
+                align-items: start;
+                .title {
+                    width: 100%;
+                    text-align: left;
+                }
+                p {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+            .process {
+                width: 100%;
+                padding-top: 2.1333vw;
+                align-items: start;
+                gap: 6.4vw;
+                &__title {
+                    font-size: 1rem;
+                }
+                &__list {
+                    gap: 2.1333vw;
+                }
+                &__item {
+                    height: 18.1333vw;
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .image-container {
+            margin: 0;
+            width: 100%;
+            height: 82.9333vw;
+            padding: 0;
+            background-position: center;
+            background-size: cover;
+            background-image: url('/images/first-screen/image_background_526.png');
+            .video-box {
+                width: 56.8vw;
+                height: 77.8667vw;
+                overflow: hidden;
+                margin: 2.4vw 0 0 2.4vw;
+                border-radius: 2.4vw;
+            }
+            img {
+                &.image-table {
+                    width: 43.4667vw;
+                    height: 30.1333vw;
+                    top: 17.6vw;
+                    left: 44.2667vw;
+                }
+                &.image-profile {
+                    width: 34.6667vw;
+                    height: 21.3333vw;
+                    left: 44.2667vw;
+                    top: 49.8667vw;
+                }
+            }
+        }   
+    }
+}

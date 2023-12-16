@@ -57,3 +57,22 @@
         }
     }
 }
+
+@media (max-width: 526.02px) {
+    .benefits {
+        padding: 14.9333vw 4.2667vw;
+        &__content-wrapper {
+            flex-direction: column;
+            gap: 10.6667vw
+        }
+        &__card-container {
+            width: 100%;
+            gap: 3.2vw;
+            padding: 0;
+        }
+        &__icon {
+            width: 10.6667vw;
+            height: 10.6667vw;
+        }
+    }
+}

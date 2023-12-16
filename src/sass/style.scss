@@ -118,6 +118,17 @@ body {
     }
 }
 
+@media (max-width: 526.02px) {
+    html {
+        font-size: 4.2667vw;
+    }
+
+    .anchor {
+        margin-top: -16vw;
+        margin-bottom: 16vw;
+    }
+}
+
 /* Подключение стилей кнопок и заголовков*/
 @import 'blocks/buttons/buttons';
 @import 'blocks/buttons/buttons-media';

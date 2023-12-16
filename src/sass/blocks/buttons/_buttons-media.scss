@@ -48,7 +48,7 @@
         padding: .5208vw .5208vw .5208vw 3.125vw;
         gap: 2.0833vw;
         border-radius: 5.2083vw;
-        border: .2604vw solid $black;
+        border: none;
         font-size: 1.0625rem;
         .arrow-container {
             width: 5.7292vw;
@@ -106,6 +106,32 @@
                     transition: all .169s;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 526.02px) {
+    .btn {
+        height: 13.8667vw;
+        padding: 1.0667vw 1.0667vw 1.0667vw 6.4vw;
+        gap: 4.2667vw;
+        border-radius: 10.6667vw;
+        .arrow-container {
+            width: 11.7333vw;
+            height: 11.7333vw;
+        }
+        &_header {
+            height: 8.5333vw;
+            min-width: 40vw;
+            padding: 1.0667vw 3.2vw;
+            width: auto;
+            border: .2667vw solid $black;
+        }
+        &_header-mobile {
+            height: 13.8667vw;
+            padding: 1.0667vw 6.4vw;
+            border-radius: 10.6667vw;
+            border: .2667vw solid $black;
         }
     }
 }

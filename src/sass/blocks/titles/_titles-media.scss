@@ -26,11 +26,22 @@
     .title {
         &_h1, &_h1 i {
             letter-spacing: -0.099vw;
-            font-size: 4.9479vw;
+            font-size: 2.375rem;
         }
         &_h2, &_h2 i {
             letter-spacing: -0.0781vw;
             font-size: 1.875rem;
+        }
+    }
+}
+
+@media (max-width: 526.02px) {
+    .title {
+        &_h1, &_h1 i {
+            letter-spacing: -0.2027vw;
+        }
+        &_h2, &_h2 i {
+            letter-spacing: -0.16vw;
         }
     }
 }

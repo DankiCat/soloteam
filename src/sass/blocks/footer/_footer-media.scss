@@ -20,26 +20,59 @@
 
 @media (max-width: 1024.02px) {
     .footer {
-        padding: 16px 32px;
-        border-top: 1px solid rgba($black, .1);
+        padding: 1.5625vw 3.125vw;
+        border-top: .0977vw solid rgba($black, .1);
         &__left-container {
-            gap: 24px;
+            gap: 2.3438vw;
         }
         &__logo-container {
-            width: 110px;
-            height: 16px;
+            width: 10.7422vw;
+            height: 1.5625vw;
         }
         &__contactS-container {
-            gap: 12px;
+            gap: 1.1719vw;
         }
         &__right-container {
-            gap: 16px;
+            gap: 1.5625vw;
         }
         &__contact, &__contact-link {
             font-size: .875rem;
         }
         &__right-container p:last-child {
             display: none;
+        }
+    }
+}
+
+@media (max-width: 768.02px) {
+    .footer {
+        padding: 3.125vw 6.25vw;
+        border-top: .1302vw solid rgba($black, .1);
+        align-items: start;
+        &__left-container {
+            gap: 2.0833vw;
+            flex-direction: column;
+            align-items: start;
+            width: 42.7083vw;
+        }
+        &__logo-container {
+            width: 14.3229vw;
+            height: 2.0833vw;
+        }
+        &__contactS-container {
+            gap: 1.5625vw;
+            flex-direction: column;
+        }
+        &__right-container {
+            gap: 1.0417vw;
+            flex-direction: column;
+            width: 42.7083vw;
+        }
+        &__contact, &__contact-link {
+            font-size: .9375rem;
+        }
+        &__right-container p:last-child {
+            display: block;
         }
     }
 }

@@ -36,3 +36,24 @@
         }
     }
 }
+
+@media (max-width: 768.02px) {
+    .benefits {
+        padding: 7.2917vw 6.25vw;
+        &__content-wrapper {
+            gap: 5.2083vw 2.0833vw;
+        }
+        &__card-container {
+            width: 42.7083vw;
+            gap: 1.5625vw;
+            padding: 0 4.1667vw 0 0;
+        }
+        &__icon {
+            width: 5.2083vw;
+            height: 5.2083vw;
+        }
+        &__card-title {
+            font-size: 1.25rem;
+        }
+    }
+}

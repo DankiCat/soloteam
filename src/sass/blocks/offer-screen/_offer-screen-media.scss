@@ -69,3 +69,44 @@
         }
     }
 }
+
+@media (max-width: 768.02px) {
+    .offer {
+        padding: 4.1667vw 6.25vw;
+        &__content-wrapper {
+            margin: 0 auto;
+            border-radius: 5.2083vw;
+            height: 65.2344vw;
+        }
+        &__text-wrapper {
+            padding: 7.2917vw 3.125vw 0vw 3.125vw;
+            gap: 4.1667vw;
+        }
+        &__title-container {
+            width: 81.3802vw;
+        }
+        &__title, &__title i {
+            font-size: 1.875rem;
+        }
+        &__text-container {
+            padding: 0;
+            gap: 1.5625vw;
+        }
+        &__text {
+            font-size: 1.0625rem;
+        }
+        &__note {
+            font-size: .9375rem;
+        }
+        &__image {
+            &_left {
+                width: 45.7031vw;
+                height: 35.1839vw;
+            }
+            &_right {
+                width: 39.3228vw;
+                height: 35.1836vw;
+            }
+        }
+    }
+}

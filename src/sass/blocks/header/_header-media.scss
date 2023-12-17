@@ -19,8 +19,8 @@
                         height: 1px;
                     }
                     &_faded {
-                        &:last-child {
-                            &::before {
+                        &.soon-label {
+                            &::after {
                                 letter-spacing: -0.2448px;
                                 top: -12.24px;
                                 left: calc(100% - 11px);
@@ -200,7 +200,7 @@
             top: 55.5vw;
             left: 0;
             width: 100vw;
-            height: calc(100vh - 55.599vw);
+            height: 100vh;
             background-color: rgba($black, 0.1);
             opacity: 0;
             pointer-events: none;

@@ -4,12 +4,12 @@
 /* Подключение шрифта Antonym*/
 @font-face {
     font-family: 'Antonym';
-    src: url('Antonym.eot');
+    src: url('../fonts/Antonym/Antonym-Italic.eot');
     src: local('Antonym'),
-        url('Antonym.eot?#iefix') format('embedded-opentype'),
-        url('Antonym.woff2') format('woff2'),
-        url('Antonym.woff') format('woff'),
-        url('Antonym.ttf') format('truetype');
+        url('../fonts/Antonym/Antonym.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Antonym/Antonym.woff2') format('woff2'),
+        url('../fonts/Antonym/Antonym.woff') format('woff'),
+        url('../fonts/Antonym/Antonym.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -17,12 +17,12 @@
 
 @font-face {
     font-family: 'Antonym';
-    src: url('Antonym-MediumItalic.eot');
+    src: url('../fonts/Antonym/Antonym-MediumItalic.eot');
     src: local('Antonym Medium Italic'), local('Antonym-MediumItalic'),
-        url('Antonym-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('Antonym-MediumItalic.woff2') format('woff2'),
-        url('Antonym-MediumItalic.woff') format('woff'),
-        url('Antonym-MediumItalic.ttf') format('truetype');
+        url('../fonts/Antonym/Antonym-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Antonym/Antonym-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Antonym/Antonym-MediumItalic.woff') format('woff'),
+        url('../fonts/Antonym/Antonym-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -30,12 +30,12 @@
 
 @font-face {
     font-family: 'Antonym';
-    src: url('Antonym-LightItalic.eot');
+    src: url('../fonts/Antonym/Antonym-LightItalic.eot');
     src: local('Antonym Light Italic'), local('Antonym-LightItalic'),
-        url('Antonym-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('Antonym-LightItalic.woff2') format('woff2'),
-        url('Antonym-LightItalic.woff') format('woff'),
-        url('Antonym-LightItalic.ttf') format('truetype');
+        url('../fonts/Antonym/Antonym-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Antonym/Antonym-LightItalic.woff2') format('woff2'),
+        url('../fonts/Antonym/Antonym-LightItalic.woff') format('woff'),
+        url('../fonts/Antonym/Antonym-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -43,12 +43,12 @@
 
 @font-face {
     font-family: 'Antonym';
-    src: url('Antonym-Italic.eot');
+    src: url('../fonts/Antonym/Antonym-Italic.eot');
     src: local('Antonym Italic'), local('Antonym-Italic'),
-        url('Antonym-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Antonym-Italic.woff2') format('woff2'),
-        url('Antonym-Italic.woff') format('woff'),
-        url('Antonym-Italic.ttf') format('truetype');
+        url('../fonts/Antonym/Antonym-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Antonym/Antonym-Italic.woff2') format('woff2'),
+        url('../fonts/Antonym/Antonym-Italic.woff') format('woff'),
+        url('../fonts/Antonym/Antonym-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -56,12 +56,12 @@
 
 @font-face {
     font-family: 'Antonym';
-    src: url('Antonym-Medium.eot');
+    src: url('../fonts/Antonym/Antonym-Medium.eot');
     src: local('Antonym Medium'), local('Antonym-Medium'),
-        url('Antonym-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Antonym-Medium.woff2') format('woff2'),
-        url('Antonym-Medium.woff') format('woff'),
-        url('Antonym-Medium.ttf') format('truetype');
+        url('../fonts/Antonym/Antonym-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Antonym/Antonym-Medium.woff2') format('woff2'),
+        url('../fonts/Antonym/Antonym-Medium.woff') format('woff'),
+        url('../fonts/Antonym/Antonym-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -69,34 +69,15 @@
 
 @font-face {
     font-family: 'Antonym';
-    src: url('Antonym-Light.eot');
+    src: url('../fonts/Antonym/Antonym-Light.eot');
     src: local('Antonym Light'), local('Antonym-Light'),
-        url('Antonym-Light.eot?#iefix') format('embedded-opentype'),
-        url('Antonym-Light.woff2') format('woff2'),
-        url('Antonym-Light.woff') format('woff'),
-        url('Antonym-Light.ttf') format('truetype');
+        url('../fonts/Antonym/Antonym-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Antonym/Antonym-Light.woff2') format('woff2'),
+        url('../fonts/Antonym/Antonym-Light.woff') format('woff'),
+        url('../fonts/Antonym/Antonym-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-}
-
-/* @font-face {
-  font-display: swap;
-  font-family: 'Antonym';
-  src: url("../fonts/antonym/antonym-light-italic.eot");
-  src: local("Antonym Light Italic"), local("Antonym-LightItalic"), url("../fonts/antonym/antonym-light-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-light-italic.woff2") format("woff2"), url("../fonts/antonym/antonym-light-italic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap; 
-} */
-
-@font-face {
-  font-display: swap;
-  font-family: 'Antonym';
-  src: url("../fonts/antonym/antonym-medium.eot");
-  src: url("../fonts/antonym/antonym-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/antonym/antonym-medium.woff2") format("woff2"), url("../fonts/antonym/antonym-medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal; 
 }
 
 /* Импорт переменных и миксинов */
@@ -109,7 +90,7 @@
 }
 
 *:focus {
-    outline: none;
+    outline: none !important;
 }
 
 html {
